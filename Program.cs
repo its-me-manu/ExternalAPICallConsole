@@ -44,12 +44,12 @@ static async Task ProcessRepositoriesAsync(HttpClient client, HttpContent httpCo
     Console.WriteLine($"*****Completed API Call******");
 }
 
-//  static async Task<string> GetAccessTken()
+//  static async Task<string> GetAccessToken()
 //  {
 //      IWebDriver driver; 
 //      driver = LaunchBrowser("chrome");
 //      IJavaScriptExecutor js = (IJavaScriptExecutor)driver;
 //      var keyToken = (string)js.ExecuteAsyncScript("return window.sessionStorage.key('access-token')");
 //      var authToken = (staring)js.ExecuteAsyncScript("return window.sessionStorage.getItem('" + keyToken + "')");
-//      return "";
+//      return authToken;
 //  }
