@@ -14,7 +14,7 @@ client.DefaultRequestHeaders.Add("User-Agent", "Proteus Memo-Count Modifier");
 client.DefaultRequestHeaders.Authorization =  new AuthenticationHeaderValue("Bearer", authToken);
 
 
-HttpContent httpContent = new StringContent("Proteus Memo-Count Modifier");
+HttpContent httpContent = new StringContent("External API Call");
 httpContent.Headers.ContentType = new System.Net.Http.Headers.MediaTypeHeaderValue ("application/json"); 
 
 await ProcessRepositoriesAsync(client, httpContent);
